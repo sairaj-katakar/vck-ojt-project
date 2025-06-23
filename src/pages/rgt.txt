@@ -1,0 +1,9 @@
+<Router>
+        <Routes>                                                       
+          <Route path="/home" element={<HomePage/>} />
+          <Route path="/courses" element={<CoursesPage/>} />
+          <Route path="/about" element={<AboutPage/>} />
+          <Route path="/contact" element={<ContactPage/>} />
+          <Route path="/applynow" element={AdmissionPage} />
+        </Routes>
+      </Router>
