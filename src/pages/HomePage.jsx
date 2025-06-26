@@ -1,4 +1,5 @@
 import Footer from "../componenet/Footer/Footer";
+import { Link } from "react-router-dom";
 import Header from "../componenet/Header/Header";
 
 const HomePage = () => {
@@ -10,12 +11,12 @@ const HomePage = () => {
                     <div className="hero-section">
                         <img alt="Vivekanand College Campus" className="hero-banner-image" src="/images/v1.png"></img>
                                     
-                        <div className="hero-overlay-text">
+                        <div /*className="hero-overlay-text"*/>
                             <h1>Welcome to Vivekanand College!</h1>
                             
                             <p>Your journey to Excellence starts here</p>
                             
-                            <a className="btn hero-btn" href="/ApplyNow">Apply Now!</a>
+                            <Link to="/ApplyNow"  className="btn hero-btn">Apply Now!</Link>
                         </div>
                     </div>
                     
@@ -39,17 +40,12 @@ const HomePage = () => {
                 
                     <div className="call-to-action">
                         <p>Ready to Explore Our Courses?</p>
-                        <a className="btn" href="/courses">Explore Courses!</a>
+                        <Link to="/courses"  className="btn" >Explore Courses!</Link>
                     </div>
                 
                 </div>
 
-                <div className="chatbot-container">
-                    <button className="chatbot-open-button">
-                        <img alt="chat icon" src="/images/v4.png" style={{width: "100px" , height:"auto"}}></img>
-                    </button>
-                    <div className="chat-window-closed"></div>
-                </div>
+                
             </div>
             <Footer/>
         </div>
