@@ -15,7 +15,7 @@ const CoursesPage = () => {
                 <h2>Discover Campus Life</h2>
                 <div className="video-container">
                     <video controls style={{width: "100%", height: "auto"}} className="course-video">
-                    <source src="/videos/study.mp4"/>
+                    <source src="/videos/video1.mp4"/>
                     </video>
                     <p className="video-caption">Get a glimpse of the vibrant academic and social life at Vivekanand College</p>
                 </div>
