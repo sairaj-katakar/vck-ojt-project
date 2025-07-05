@@ -254,76 +254,76 @@ th {
 }
 
 @keyframes fadeInUptoBottom {
-  from {
+    from {
     opacity: 0;
     transform: translateY(20px);
-  }
+    }
 
-  to {
+    to {
     opacity: 1;
     transform: translateY(0);
-  }
+    }
 }
 
 .animate-fade-in-up {
-  animation: fadeInUptoBottom 1s ease-out forwards;
+    animation: fadeInUptoBottom 1s ease-out forwards;
 }
 
 
 
 @media (max-width: 768px) {
-  .page-container {
+    .page-container {
     margin: 15px auto;
     padding: 15px;
-  }
+    }
 
-  .hero-section {
+    .hero-section {
     height: 250px;
-  }
+    }
 
-  .hero-overlay-text h1 {
+    .hero-overlay-text h1 {
     font-size: 2.2em;
-  }
+    }
 
-  .hero-overlay-text p {
+    .hero-overlay-text p {
     font-size: 1em;
-  }
+    }
 
-  .hero-btn {
+    .hero-btn {
     padding: 10px 20px;
     font-size: 1em;
-  }
+    }
 
-  .image-gallery {
+    .image-gallery {
     grid-template-columns: 1fr;
-  }
+    }
 
-  .image-gallery img {
+    .image-gallery img {
     height: 180px;
-  }
+    }
 
   */ .admissions-table thead,
-  .admissions-table tbody,
-  .admissions-table th,
-  .admissions-table td,
-  .admissions-table tr {
+    .admissions-table tbody,
+    .admissions-table th,
+    .admissions-table td,
+    .admissions-table tr {
     display: block;
     width: auto;
-  }
+    }
 
 }
 
 @media (max-width: 480px) {
 
-  .page-container {
+    .page-container {
     padding: 10px;
-  }
+    }
 
-  .hero-overlay-text h1 {
+    .hero-overlay-text h1 {
     font-size: 1.8em;
-  }
+    }
 
-  .hero-overlay-text p {
+    .hero-overlay-text p {
     font-size: 0.9em;
-  }
+    }
 }

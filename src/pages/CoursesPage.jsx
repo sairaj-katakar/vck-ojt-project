@@ -28,7 +28,7 @@ const CoursesPage = () => {
                             <li>Information Technology (3 years)</li>
                             <li>Biotechnology (3 years)</li>
                         </ul>
-                       </li>
+                      </li>
                     <li>
                       <b>Bachelor of Commerce (B.Com)</b>
                       <ul> 
@@ -100,7 +100,7 @@ const CoursesPage = () => {
                 </p>
                 <a className="btn" href="/contact">Contact Us!</a>
               </div>
-     
+
             </div>
           </div>
             <Footer/>

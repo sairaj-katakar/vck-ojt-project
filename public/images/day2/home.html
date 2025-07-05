@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>OJTDAY1</title>
+		<link rel="stylesheet" href="style.css">
+	
+		<script src="script.js"></script>
+		<input type="number" id="demo" type"number" id="demo1"></input>
+		
+		<button onclick="calculatesum()">
+		<span id=""></span>
+	</head>
+	<body style="background-color:rgba(255, 99, 71, 0.5);background-image: url("D:\OJT\day1\campus.jpg");>
+		<h1 style="color:red;background-color:gray;text-align: center;">Esential HTML Tags Showcase</h1>
+		
+		<p style="background-color:Tomato;">This page demonstrate the usage of various common HTML Tags.Study the code and try to recreate a similar output!</p><br><br>
+		<div class="name">
+		<h2>Heading (h1 to h6)</h2><br><br>
+		
+		<h1 style="background-color:orange;">This is an H1 Heading Example </h1><br><br>
+		
+		<h2 style="background-color:dodgerblue;">This is an H2 Heading Example </h2><br><br>
+	
+		<h3 style="background-color:mediumseagreen;">This is an H3 Heading Example </h3><br><br>
+		</div>
+	    <h4 style="background-color:violet;">This is an H4 Heading Example </h4><br><br>
+		
+		<h5 style="background-color:slateblue;"> This is an H5 Heading Example </h5><br><br>
+		
+		<h6 id="main"> This is an H6 Heading Example </h6><br><br>
+		
+		<h2>Paragraph (p) and Basic Text Formatting </h2><br>
+		<p>This is the stam=ndard paragraph.t contain a block of text.You can make pats of it <strong>strong and important</strong>,or <em>emphasize certain words</em> for a different tone.
+		</p><br>
+		<p style="border:2px solid Tomato;">Paragraph helps organize your content 
+		   into redable chunks.This make your 
+		   web page much easiar to follow for users.
+		</p><br>
+		
+		<h2> Image</h2>
+			<img src="D:\OJT\day1\campus.jpg" alt="Image of a college Building" width="300"><br>
+			
+		<h2>Video</h2>
+			<video width="320" height="240" controls>
+				<source src="D:\OJT\day1\college.mp4" type="video/mp4">
+				Your browser does not support video tag.
+			</video><br>
+			
+			<p>This is an Example video using the <code>&lt;video&gt;</code> tag.If the video doesn't load,it ,eans your browsser might not support the format, or the placeholder link is unbelivable.</p><br>
+			
+		<h2>Lists</h2>
+		
+		<h3>Unordered list</h3>
+			<ul>
+				<li>First item in an unordered list </li>
+				<li>Second item in an unordered list </li>
+				<li>thirditem in an unordered list.
+					<ul>
+						<li>Nested item A </li>
+						<li>Nested item B </li>
+					</ul>
+				</li>
+				<li>Fourth Item </li>
+			</ul>
+		
+		<h3>Ordered List</h3>
+			<ol>
+				<li>First item in an ordered list</li>
+				<li>Second item in an ordered list</li>
+				<li>Third item in an ordered list.
+					<ol>
+						<li>Nested item alpha</li>
+						<li>Nested item Beta</li>
+					</ol>
+				</li>
+				<li>Fourth Item </li>
+			</ol>
+			
+		<form>
+			<p>
+				Name : <input type="text" name="name" placeholder="Your Name"><br>
+				Email :<input type="email" name="email" placeholder="your,email@example.com"><br>
+				Password :<input type="password" name="password">
+			</p>
+			
+			<p>Choose your favourite Fruit:</p>
+				<input type="radio" name="fruit" value="apple">Apple<br>
+				<input type="radio" name="fruit" value="banana">Banana<br>
+				
+			<p>Select interests:</p>
+				<input type="checkbox" name="interest" value="coding">coding<br>
+				<input type="checkbox" name="interest" value="reading">reading<br><br>
+				
+				<button type="submit">Click Me!</button>
+				
+		</form>
+		
+		<h2>Tables(table) </h2>
+		<table border="solid 2x">
+			<caption>Monthly Expenses Report</caption>
+			<tr>	
+				<th>Category</th>
+				<th>Amount</th>
+				<th>Data</th>
+			</tr>
+			<tr>
+				<td>Groceries</td>
+				<td>$250.00</td>
+				<td>2025-06-01</td>
+			</tr>
+			
+			<tr>
+				<td>Utilities</td>
+				<td>$85.50</td>
+				<td>2025-06-05</td>
+			</tr>
+			
+			<tr>
+				<td>Transport</td>
+				<td>$40.00</td>
+				<td>2025-06-10</td>
+			</tr>
+			
+			<tr>
+				<td><strong>Total Expenses (partial)</strong></td>
+				<td colspan="2"><strong>$375.50</strong></td>
+			</tr>
+		</table>
+		
+		<script>
+			console.log("hii codewonder");
+			
+			let a=10;
+			console.log(a);
+			let b=20;
+			console.log(b);
+			let add=a+b;
+			console.log(add);
+			
+			let name="sairaj";
+			console.log(name);
+			
+			const age=19;
+			console.log(age);
+			
+			let isOn=true;
+			console.log(isOn);
+			
+			const array=[1,2,3,4,5];
+			console.log(array);
+			
+			function greet(){
+				console.log("Hello Sairaj !!!!!!!!!!!");
+				}
+				greet();
+				
+			function greet(Name){
+				console.log(" How are you " + Name + " ? ");
+				}
+				greet("sairaj");	
+			
+			
+		</script>
+		
+				
+	</body>
+</html>
